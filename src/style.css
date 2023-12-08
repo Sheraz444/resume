@@ -1,0 +1,24 @@
+.{
+    padding: 0;
+    margin: 0;
+}
+.title{
+    text-align: center;
+    background-color: aquamarine;
+    padding: 20px;
+    margin: 40px;
+}
+.wrapper{
+    display: flex;
+    justify-content: center;
+    width: 80%;
+}
+.wrapper .left{
+    text-align: left;
+    /* border-width: 2px solid red; */
+    border-right: 3px solid rgb(15, 15, 15);
+}
+.wrapper .right{
+    margin: 15px;
+    padding: 10px;
+}
